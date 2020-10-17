@@ -1,0 +1,2 @@
+[1017/120011.982:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\user\AppData\Local\Temp\scoped_dir3748_1344964703\Crashpad\attachments\3c9783db-a671-40a7-9b03-33b054ac187d: The system cannot find the path specified. (0x3)
+[1017/123625.296:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

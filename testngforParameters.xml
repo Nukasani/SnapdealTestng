@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+	<test name="Iteration-1">
+		<parameter name="browsername" value="chrome" />
+		<parameter name="username"
+			value="sriharshanukasani@gmail.com" />
+		<parameter name="password" value="Harsha@5304" />
+		<classes>
+			<class name="tests.WithParameters" />
+		</classes>
+	</test>
+
+	<test name="Iteration-2">
+		<parameter name="browsername" value="opera" />
+		<parameter name="username"
+			value="sriharshanukasani@gmail.com" />
+		<parameter name="password" value="Harsha@5304" />
+		<classes>
+			<class name="tests.WithParameters" />
+		</classes>
+	</test>
+
+	<test name="Iteration-3">
+		<parameter name="browsername" value="firefox" />
+		<parameter name="username"
+			value="sriharshanukasani@gmail.com" />
+		<parameter name="password" value="Harsha@5304" />
+		<classes>
+			<class name="tests.WithParameters" />
+		</classes>
+	</test>
+</suite>
